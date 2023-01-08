@@ -1,0 +1,60 @@
+<!--pages/customize/customize.wxml-->
+
+<view class="top">
+  <t-icon name="chevron-left" size="60rpx" data-name="chevron-left" class="back"></t-icon>
+  <view class="text">
+    说出您的需求，马上找到您所满意
+  </view>
+</view>
+<view class="content">
+  <view class="cont1" style="margin-top: -20px;">
+    您主要需要什么服务?
+    <view class="choose">
+      <view>
+        <t-icon name="image" size="60rpx" data-name="image" class="back"></t-icon>
+        服务1
+      </view>
+      <view>
+        <t-icon name="image" size="60rpx" data-name="image" class="back"></t-icon>
+        服务2
+      </view>
+      <view>
+        <t-icon name="image" size="60rpx" data-name="image" class="back"></t-icon>
+        服务3
+      </view>
+    </view>
+
+  </view>
+
+    <view class="choose" style="width: 95%;margin-bottom: 10px;">
+      <view style="width: 100%;display: flex;">
+        <t-cell title="选择上门时间" hover note="{{datetimeText}}" arrow data-mode="datetime" bindtap="showPicker" t-class="pannel-item" />
+
+        <!-- 年月日时分 -->
+        <t-date-time-picker title="选择日期和时间" visible="{{datetimeVisible}}" mode="second" value="{{datetime}}" format="YYYY-MM-DD HH:mm:ss" bindchange="onConfirm" bindpick="onColumnChange" bindcancel="hidePicker" />
+      </view>
+
+
+  </view>
+  <view class="cont1">
+    服务模式?
+    <view class="choose">
+      <view>
+        <t-icon name="image" size="60rpx" data-name="image" class="back"></t-icon>
+        极速模式(小时)
+      </view>
+      <view>
+        <t-icon name="image" size="60rpx" data-name="image" class="back"></t-icon>
+        包月模式
+      </view>
+    </view>
+
+    
+
+  </view>
+</view>
+<view class="bottom">
+    <view>
+        <t-button theme="primary" size="large" block theme="danger">帮我找服务人员</t-button>
+    </view>
+</view>

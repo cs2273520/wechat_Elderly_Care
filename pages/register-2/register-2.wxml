@@ -1,0 +1,36 @@
+<!--pages/register/register.wxml-->
+<view class="top">
+    子女信息
+</view>
+<view class="main">
+    <view>
+        <text style="margin-left: 20px;">姓名</text>
+        <t-input placeholder="请输入姓名" borderless="{{false}}" />
+    </view>
+    <view>
+        <text style="margin-left: 20px;">电话</text>
+        <t-input placeholder="请输入电话" borderless="{{false}}" />
+    </view>
+    <view>
+        <text style="margin-left: 20px;">身份证号码</text>
+        <t-input placeholder="请输入身份证号码" borderless="{{false}}" />
+    </view>
+    <view>
+        <text style="margin-left: 20px;">关系</text>
+        <t-radio-group default-value="0" borderless t-class="box">
+            <t-radio block="{{false}}" label="儿子" value="0" />
+            <t-radio block="{{false}}" label="女儿" value="1" />
+        </t-radio-group>
+    </view>
+    <view class="addCon">
+        <view style="margin-left: 20px;height: 24px;">继续添加</view>
+        <t-icon style="display: inline-block;margin-left: 10px;" name="add-circle" size="48rpx" data-name="add-circle" />
+    </view>
+    <view class="next" style="margin-top: 30px;">
+        <view class="nextBt">
+            <t-button theme="primary" size="large" block>提交</t-button>
+        </view>
+    </view>
+
+
+</view>

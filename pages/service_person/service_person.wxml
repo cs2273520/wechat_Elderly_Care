@@ -1,0 +1,91 @@
+<!--pages/service_person/service_person.wxml-->
+<view class="top">
+    <view class="top-1">
+        <t-icon name="chevron-left" size="42rpx" data-name="chevron-left" class="back" style="color: white;"></t-icon>
+        <text>服务人员</text>
+        <t-icon name="file-paste" size="42rpx" data-name="file-paste" class="back" style="color: white;"></t-icon>
+    </view>
+    <view class="top-2">
+        <view class="top-21">
+            <text>广州 | 服务1 | 极速模式---2小时 |</text>
+
+            <view class="btn">
+                查看需求
+            </view>
+        </view>
+
+    </view>
+
+</view>
+<view class="content">
+    <view class="cont1">
+        已为您找到x位服务人员
+    </view>
+    <view class="cont2">
+        <image src="./images/service1.jpg" mode="" />
+        <view class="info">
+            <text>某某某 哪里人</text>
+            <text> xx岁|几年经验|服务1|服务2|服务3</text>
+            <view class="skill">
+                <view>
+                技能1
+            </view>
+            <view>
+                技能2
+            </view>
+            <view>
+                技能3
+            </view>
+            </view>
+           
+        </view>
+    </view>
+    <view class="cont2">
+        <image src="./images/service1.jpg" mode="" />
+        <view class="info">
+            <text>某某某 哪里人</text>
+            <text> xx岁|几年经验|服务1|服务2|服务3</text>
+            <view class="skill">
+                <view>
+                技能1
+            </view>
+            <view>
+                技能2
+            </view>
+            <view>
+                技能3
+            </view>
+            </view>
+           
+        </view>
+    </view>
+    <view class="cont2">
+        <image src="./images/service1.jpg" mode="" />
+        <view class="info">
+            <text>某某某 哪里人</text>
+            <text> xx岁|几年经验|服务1|服务2|服务3</text>
+            <view class="skill">
+                <view>
+                技能1
+            </view>
+            <view>
+                技能2
+            </view>
+            <view>
+                技能3
+            </view>
+            </view>
+           
+        </view>
+    </view>
+
+    <view class="cont3">
+        <view class="price">
+            预估价格: xxx元
+        </view>
+    </view>
+</view>
+
+<view class="bottom">
+    <t-button size="large" theme="danger" block>确认下单</t-button>
+</view>

@@ -1,0 +1,34 @@
+<!--pages/customize/customize.wxml-->
+<view>
+  <view class="top">
+    <select name="city" id="">选择城市</select>
+    <t-icon name="caret-down-small" size="60rpx" data-name="caret-down-small" ></t-icon>
+  </view>
+  <view class="content">
+    <view class="map">
+      <image src="./images/map.jpg" mode=""/>
+      <view class="location">
+        <t-icon name="location" size="40rpx" data-name="location"  ></t-icon>
+      </view>
+    </view>
+
+    <view class="cont1">
+      <view class="round">
+      <view class="point"></view>
+        <input placeholder="输入您的上门地址" />
+      </view>
+     
+      <view class="round">
+        <view class="point"></view>
+      <input placeholder="输入您的服务时间" />
+      </view>
+    
+    </view>
+
+    <view class="box">
+  <t-button theme="primary" size="large" block>确认</t-button>
+</view>
+
+  </view>
+  <footer class="footer"></footer>
+</view>

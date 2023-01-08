@@ -1,0 +1,47 @@
+<!--pages/home/home.wxml-->
+<view class="top">
+  <view class="fun">
+    <view class="top-1">
+      <view class="left-top">
+        <t-icon name="location" color="red" size="48rpx" data-name="location" ></t-icon> 北京
+      </view>
+      <view class="right-top">
+        <input placeholder="搜索服务" class="left-right-inpuet" />
+      </view>
+    </view>
+    <view class="top-2">
+      <t-icon name="scan" size="48rpx" data-name="scan" color="white"></t-icon>
+      <t-icon name="chat" size="48rpx" data-name="chat" color="white"></t-icon>
+    </view>
+  </view>
+  <view class="chose">
+    <view>
+      服务1
+    </view>
+    <view>
+      服务2
+    </view>
+    <view>
+      服务3
+    </view>
+  </view>
+</view>
+<view class="content">
+  <view class="adve">
+    swiper-advertisement
+  </view>
+  <view class="serv">
+    <view class="customize">
+    自主选择
+  </view>
+  <view class="matching">
+    智能匹配
+  </view>
+  
+  </view>
+  <view class="adve">
+    advertisement
+  </view>
+</view>
+<footer class="footer"> 
+</footer>

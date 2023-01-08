@@ -1,0 +1,103 @@
+.top{
+  width: 100%;
+  background-color: red;
+  .fun{
+    padding: 0 10px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    .top-1{
+      flex: 8;
+      display: flex;
+      background-color: whitesmoke;
+      height: 40px;
+      border-radius: 15px;
+      align-items: center;
+      .left-top{
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
+        border-right:  1px solid #ccc;
+      }
+      .right-top{
+        margin-left: 10px;
+      }
+    }
+    .top-2{
+      flex: 2;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      height: 40px;
+    }
+  }
+  .chose{
+    display: flex;
+    width: 100%;
+    background-color:red;
+    height: 35px;
+    align-items: center;
+    padding-left: 10px;
+    view{
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      font-size: 24rpx;
+      margin-left: 5px;
+      padding: 3px;
+      color: whitesmoke;
+    }
+  }
+  
+}
+.content{
+  background-color: royalblue;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  .adve{
+    width: 100%;
+    height: 300px;
+    background-color: blanchedalmond;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .serv{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .customize{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 190px;
+      height: 180px;
+      display: flex;
+      background-color: cadetblue;
+      border-radius: 10px;
+    }
+    .matching{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 190px;
+      height: 180px;
+      display: flex;
+      background-color: cadetblue;
+      border-radius: 10px;
+    }
+  }
+}
+
+
+
+
+
+.footer{
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}

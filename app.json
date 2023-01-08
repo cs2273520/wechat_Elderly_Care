@@ -1,0 +1,26 @@
+{
+    "pages": [
+        "pages/home/home",
+        "pages/orderDetail/orderDetail",
+        "pages/order/order",
+        "pages/cancel/cecel",
+        "pages/service_person/service_person",
+        "pages/customize/customize",
+        "pages/match/match",
+        
+        "pages/register-2/register-2",
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/saleService/saleService"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "智慧养老小程序",
+        "navigationBarTextStyle": "black"
+    },
+    "sitemapLocation": "sitemap.json",
+    "usingComponents": {
+        "t-icon": "tdesign-miniprogram/icon/icon"
+    }
+}

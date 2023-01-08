@@ -1,0 +1,27 @@
+<!--component/footer.wxml-->
+<view class="footer">
+    <view>
+    <t-icon name="home" size="60rpx" data-name="home" ></t-icon>
+      <view>
+        首页
+      </view> 
+    </view>
+    <view>
+      <t-icon name="app" size="60rpx" data-name="app" ></t-icon>
+      <view>
+        全部服务
+      </view> 
+    </view>
+    <view>
+      <t-icon name="calendar" size="60rpx" data-name="calendar" ></t-icon>
+      <view>
+        服务日历
+      </view> 
+    </view>
+    <view>
+      <t-icon name="user" size="60rpx" data-name="user" ></t-icon>
+       <view>
+        个人中心
+       </view> 
+    </view>
+</view>

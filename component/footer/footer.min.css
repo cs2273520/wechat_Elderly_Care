@@ -1,0 +1,1 @@
+.footer{display:flex;justify-content:space-around;align-items:center;background-color:whitesmoke;height:60px}.footer view{flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center}.footer view view{font-size:20rpx}

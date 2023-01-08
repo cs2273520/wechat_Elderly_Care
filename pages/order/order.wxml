@@ -1,0 +1,117 @@
+<!--pages/order/order.wxml-->
+<view class="top">
+    <view class="top-1">
+        <t-icon name="chevron-left" size="60rpx" data-name="chevron-left" class="back" style="color: #ccc;"></t-icon>
+        <text style="margin-left: -30px;">订单</text>
+        <view></view>
+    </view>
+    <view class="top-2">
+        <view >
+            待服务
+        </view>
+        <view >
+            待支付
+        </view>
+        <view>
+            待评价
+        </view>
+        <view style="border-bottom: 2px solid #ccc;">
+            全部
+        </view>
+    </view>
+
+</view>
+<view class="content">
+<!-- 待支付 -->
+<!-- 
+<view class="orders">
+        <view class="title">
+            <text>包月模式</text>
+        </view>
+        <view class="date">
+           * 2022-12-12
+        </view>
+        <view class="location">
+          *  广州
+        </view>
+        <t-button t-class="wrapper" theme="primary" size="large" variant="outline" data-key="showTextAndTitle" bind:tap="showDialog" block class="vcode" theme="success">支付</t-button>
+        <t-dialog visible="{{showTextAndTitle}}" title="包月模式-2022-12-12...." content="{{content}}" confirm-btn="{{ confirmBtn }}" bind:confirm="closeDialog" />
+    </view> -->
+<!-- <view class="orders">
+        <view class="title">
+            <text>极速模式</text>
+        </view>
+        <view class="date">
+           * 2022-12-12
+        </view>
+        <view class="location">
+          *  广州
+        </view>
+        <t-button t-class="wrapper" theme="primary" size="large" variant="outline" data-key="showTextAndTitle" bind:tap="showDialog" block class="vcode" theme="success">支付</t-button>
+        <t-dialog visible="{{showTextAndTitle}}" title="极速模式-2022-12-12...." content="{{content}}" confirm-btn="{{ confirmBtn }}" bind:confirm="closeDialog" />
+    </view> -->
+    <!-- 取消 -->
+    <!-- <view class="orders">
+        <view class="title">
+            <text>极速模式</text>
+            <view>
+                取消 >
+            </view> 
+        </view>
+        <view class="date">
+           * 2022-12-12
+        </view>
+        <view class="location">
+          *  广州
+        </view>
+    </view> -->
+    <!-- 提供验证码 -->
+    <!-- <view class="orders">
+        <view class="title">
+            <text>极速模式</text>
+            <view>
+                取消 >
+            </view>
+        </view>
+        <view class="date">
+            * 2022-12-12
+        </view>
+        <view class="location">
+            * 广州
+        </view>
+        <t-button t-class="wrapper" theme="primary" size="large" variant="outline" data-key="showTextAndTitle" bind:tap="showDialog" block class="vcode" theme="success">提供验证码</t-button>
+        <t-dialog visible="{{showTextAndTitle}}" title="确认服务人员已上门后提供服务码" content="88888" confirm-btn="{{ confirmBtn }}" bind:confirm="closeDialog" />
+    </view> -->
+<!-- 再下单 -->
+    <view class="orders">
+        <view class="title">
+            <text>极速模式</text>
+            <view>
+                已完成 >
+            </view> 
+        </view>
+        <view class="date">
+           * 2022-12-12
+        </view>
+        <view class="location">
+          *  广州
+        </view>
+        <button size="small" class="again">再下单</button>
+    </view>
+
+    <view class="orders">
+        <view class="title">
+            <text>包月模式</text>
+            <view>
+                已完成 >
+            </view> 
+        </view>
+        <view class="date">
+           * 2022-11-12
+        </view>
+        <view class="location">
+          *  广州
+        </view>
+        <button size="small" class="again">再下单</button>
+    </view>
+</view>

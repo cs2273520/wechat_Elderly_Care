@@ -1,0 +1,6 @@
+{
+    "usingComponents": {
+      "footer":"../../component/footer/footer",
+      "t-button": "tdesign-miniprogram/button/button"
+    }
+}

@@ -1,0 +1,16 @@
+<view class="top">
+    <t-icon name="chevron-left" size="60rpx" data-name="chevron-left" class="back"></t-icon>
+    <text style="margin-left: -40px;">订单取消</text>
+    <text></text>
+</view>
+
+<view class="content">
+    <view>
+        <t-cell class="block" title="选择取消原因" arrow hover note="{{cityText}}" bind:click="onCityPicker" />
+
+        <t-picker visible="{{cityVisible}}" value="{{cityValue}}" data-key="city" title="选择理由" cancelBtn="取消" confirmBtn="确认" bindchange="onPickerChange" bindpick="onColumnChange" bindcancel="onPickerCancel">
+            <t-picker-item options="{{citys}}"></t-picker-item>
+        </t-picker>
+    </view>
+    <button class="btn">确认取消</button>
+</view>

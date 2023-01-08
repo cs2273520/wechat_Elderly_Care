@@ -1,0 +1,86 @@
+<view class="top">
+    <view class="top-1">
+        <t-icon name="chevron-left" size="42rpx" data-name="chevron-left" class="back"></t-icon>
+        <text>返回</text>
+    </view>
+
+    <text style="margin-left: -60px;">订单详情</text>
+    <text></text>
+</view>
+
+<view class="content">
+    <view class="cont1">
+        <view class="cont1-top">
+            <view class="left">
+                <text>某某某</text>
+                <text>某养老机构</text>
+                <text>⭐5.0</text>
+            </view>
+            <view class="right">
+                <image src="../service_person/images/service1.jpg" mode="" />
+            </view>
+        </view>
+        <view class="cont1-bottom">
+            <view style="border-right: 1px solid #f1f1f1;">
+                <t-button block size="large" variant="outline" theme="primary" bind:tap="handlePopup" class="wrapper">客服
+                </t-button>
+            </view>
+            <view>
+                返回首页
+            </view>
+        </view>
+        <!-- 客服按钮弹出框 -->
+        <t-popup visible="{{visible}}" bind:visible-change="onVisibleChange" placement="bottom">
+            <view class="block">
+                <view class="header">
+                    <view class="btn btn--cancel" aria-role="button">取消</view>
+                    <view class="title">联系客服</view>
+                    <view class="btn btn--confirm" aria-role="button">确定</view>
+                </view>
+                <view class="content-sale">
+                    <view class="content-sale1">
+                        <view>
+                            联系客服
+                        </view>
+                        <view>
+                            致电客服
+                        </view>
+                    </view>
+                    <view class="content-sale2">
+                        <view>
+                            申请退款 >
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </t-popup>
+    </view>
+    <view class="cont2">
+        <view>
+            服务创建时间:2022-12-12-16:00
+        </view>
+        <view>
+            服务完成时间:2022-12-12-18:00
+        </view>
+        <view>
+            服务模式:极速模式
+        </view>
+        <view>
+            服务人员:xxx
+        </view>
+        <view>
+            服务内容:服务1|服务2|服务3
+        </view>
+        <view>
+            服务地点:广州
+        </view>
+    </view>
+    <view class="cont2">
+        <view>
+            支付成功
+        </view>
+        <view class="price">
+            888 元
+        </view>
+    </view>
+</view>
